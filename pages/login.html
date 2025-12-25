@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Login</title>
+    <link rel="icon" type="image/png" href="../icons/EgyEast logo.png">
+    <link rel="stylesheet" href="../css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="card">
+            <div class="form">
+                <header>
+                    <h1>Welcome Back</h1>
+                    <p>Please enter your details to sign in.</p>
+                </header>
+
+                <form id="loginForm">
+
+                    <div class="inputItem">
+                        <input type="text" id="username" required placeholder=" ">
+                        <label for="username">Username<span class="error"></span></label>
+                    </div>
+
+                    <div class="inputItem">
+                        <input type="password" id="password" required placeholder=" ">
+                        <label for="password">Password<span class="error"></span></label>
+                    </div>
+
+
+
+                    <button type="submit" class="btn">
+                        Sign In
+                    </button>
+
+                    <p class="redirect">
+                        Don't have an account? <a href="signup.html">Create one</a>
+                    </p>
+                </form>
+            </div>
+
+            <div class="rightSide">
+                <div class="content">
+                    <img src="../icons/login-Pic.png" alt="Character">
+                    <div class="quotes">
+                        <h2>Anime & Chill</h2>
+                        <p>Sit back, relax, and escape into a new world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="../js/cookies/CookiesLibrary.js"></script>
+    <script src="../js/cookies/user.js"></script>
+    <script src="../js/form/validation.js"></script>
+    <script src="../js/form/login.js"></script>
+
+</body>
+
+</html>

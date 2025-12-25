@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Sign-Up</title>
+    <link rel="icon" type="image/png" href="../icons/EgyEast logo.png">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="card">
+            <div class="form">
+                <header>
+                    <h1>Create Account</h1>
+                    <p>Join EgyEast today.</p>
+                </header>
+
+                <form id="signupForm">
+
+                    <div class="row">
+                        <div class="inputItem ">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Full Name<span class="error"></span></label>
+                        </div>
+                        <div class="inputItem">
+                            <input type="number" id="age" required placeholder=" ">
+                            <label for="age">Age<span class="error"></span></label>
+                        </div>
+                    </div>
+
+                    <div class="inputItem">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Email Address<span class="error"></span></label>
+                    </div>
+
+                    <div class="inputItem">
+                        <input type="tel" id="phone" required placeholder=" ">
+                        <label for="phone">Phone Number<span class="error"></span></label>
+                    </div>
+
+                    <div class="row">
+                        <div class="inputItem">
+                            <input type="password" id="password" required placeholder=" ">
+                            <label for="password">Password<span class="error"></span></label>
+                        </div>
+                        <div class="inputItem">
+                            <input type="password" id="confirm" required placeholder=" ">
+                            <label for="confirm">Confirm<span class="error"></span></label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class=" selectGroup">
+                            <select id="country">
+                                <option value="" disabled selected>Select Country</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="USA">USA</option>
+                            </select>
+                            <div class="select-arrow"></div>
+
+                        </div>
+
+                        <div class="genderItems">
+                            <label class="genderItem">
+                                <input type="radio" name="gender" value="Female">
+                                <span>Female</span>
+                            </label>
+                            <label class="genderItem">
+                                <input type="radio" name="gender" value="Male">
+                                <span>Male</span>
+                            </label>
+
+
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn">
+                        Sign Up Now
+                    </button>
+
+                    <p class="redirect">Already have an account? <a href="./login.html">Log In</a></p>
+                </form>
+            </div>
+
+            <div class="rightSide">
+                <div class="content">
+                    <img src="../icons/login-Pic.png" alt="Character">
+                    <div class="quotes">
+                        <h2>Watch Anywhere.</h2>
+
+                        <p>Stream your favorite anime library on any device.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/cookies/CookiesLibrary.js"></script>
+    <script src="../js/cookies/user.js"></script>
+    <script src="../js/form/validation.js"></script>
+    <script src="../js/form/signup.js"></script>
+</body>
+
+</html>

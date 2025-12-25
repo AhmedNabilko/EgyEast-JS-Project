@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Favourites</title>
+    <link rel="icon" type="image/png" href="../icons/EgyEast logo.png">
+    <link rel="stylesheet" href="../css/content.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <aside class="bar">
+        <div class="logo">
+            <h1>EgyEast</h1>
+        </div>
+        <nav class="navTabs">
+            <a href="home.html" class="navTab">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="favorites.html" class="navTab active">
+                <i class="fa-solid fa-heart"></i>
+                <span>Favourites</span>
+            </a>
+        </nav>
+        <a href="login.html" class="navTab logout" id="logout">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <span>Logout</span>
+        </a>
+    </aside>
+
+    <main class="main">
+        <header class="upBar">
+            <div class="search">
+                <i class="fa-solid fa-search searchIcon"></i>
+                <input type="text" placeholder="Search your list...">
+            </div>
+        </header>
+
+        <section class="anime">
+            <div class="header">
+                <h3>My Favourites</h3>
+            </div>
+
+            <div class="grid" id="cards">
+
+            </div>
+        </section>
+    </main>
+    <script src="../js/api/anime.js"></script>
+    <script src="../js/cookies/CookiesLibrary.js">
+    </script>
+    <script src="../js/cookies/user.js"></script>
+    <script src="../js/cookies/anime.js">
+    </script>
+    <script src="../js/anime/card.js"></script>
+    <script src="../js/anime/favorites.js"></script>
+</body>
+
+</html>

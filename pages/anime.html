@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>EgyEast</title>
+    <link rel="icon" type="image/png" href="../icons/EgyEast logo.png">
+    <link rel="stylesheet" href="../css/anime.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <a href="home.html" class="back" id="backBtn">
+            <i class="fa-solid fa-arrow-left"></i>
+            Back To Home
+        </a>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="overlay"></div>
+    </header>
+
+    <div class="container">
+
+        <div class="header">
+
+            <div class="poster">
+                <img id="poster" src="" alt="Poster">
+            </div>
+
+            <div class="info">
+                <span class="date" id="date"></span>
+                <h1 class="title" id="title"></h1>
+                <span class="tag" id="genre"></span>
+
+                <div class="row">
+                    <button class="btn" title="Add to Favourites" id="favourite">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="btn" title="Download">
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+                    <button class="btn" title="Watch Later">
+                        <i class="fa-regular fa-clock"></i>
+                    </button>
+                    <button class="btn" title="Share">
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </button>
+                </div>
+
+                <div class="storyline">
+                    <h3></h3>
+                    <p id="desc">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <section class="photos">
+            <h3>Photos</h3>
+            <div class="grid" id="grid">
+                <div class="card">
+                    <img src="" alt="Scene 1">
+                </div>
+                <div class="card">
+                    <img src="" alt="Scene 2">
+                </div>
+                <div class="card">
+                    <img src="" alt="Scene 3">
+                </div>
+            </div>
+        </section>
+
+        <div class="wrapper">
+            <button class="watchBtn" id="watch">
+                Watch Trailer
+            </button>
+        </div>
+
+    </div>
+    <script src="../js/api/anime.js"></script>
+    <script src="../js/cookies/CookiesLibrary.js"></script>
+    <script src="../js/cookies/user.js"></script>
+    <script src="../js/cookies/anime.js"></script>
+    <script src="../js/anime/anime.js"></script>
+</body>
+
+</html>
