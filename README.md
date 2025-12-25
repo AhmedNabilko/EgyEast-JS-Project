@@ -1,4 +1,23 @@
+# 🎬 EgyEast Watch
 
+<div align="center">
+
+  [![Live Demo](https://img.shields.io/badge/DEMO-EgyEast_Watch-ff0000?style=for-the-badge&logo=vercel&logoColor=white)](https://ahmednabilko.github.io/EgyEast-JS-Project/)
+  
+  [![API Docs](https://img.shields.io/badge/API-Jikan_v4-2e2e2e?style=for-the-badge&logo=postman&logoColor=white)](https://jikan.docs.apiary.io/#introduction/jikan)
+  
+  <br />
+
+  <h3>
+    🔴 <a href="https://ahmednabilko.github.io/EgyEast-JS-Project/">View Live Application</a>
+    <span> | </span>
+    📡 <a href="https://jikan.docs.apiary.io/#introduction/jikan">View API Documentation</a>
+  </h3>
+
+  
+</div>
+
+---
 
 # 🎬 Vanilla JS Anime Streaming SPA
 
